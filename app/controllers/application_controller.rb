@@ -5,5 +5,7 @@ class ApplicationController < ActionController::Base
   helper_method def current_user
     @current_user = User.find_by(name: "You")
   end
+  
+
 
 end
